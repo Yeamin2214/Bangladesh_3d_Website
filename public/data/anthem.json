@@ -1,0 +1,150 @@
+{
+  "title": "Amar Sonar Bangla",
+  "titleBn": "আমার সোনার বাংলা",
+  "titleAr": "بنغالي الذهبية",
+  "credit": "Words: Rabindranath Tagore, 1905. The English and Arabic lines here are our own plain translations, written for this exhibition. The official English translation is by Syed Ali Ahsan.",
+  "start": 2,
+  "end": 188,
+  "times": [
+    3.5,
+    7.6,
+    13.8,
+    18.3,
+    27.5,
+    34.7,
+    38.9,
+    46.3,
+    56.5,
+    62.5,
+    74.3,
+    83.9,
+    90.3,
+    94.1,
+    100.9,
+    110,
+    121.6,
+    134.7,
+    139.3,
+    150.9,
+    160.1,
+    166.7,
+    170.9
+  ],
+  "lines": [
+    {
+      "bn": "আমার সোনার বাংলা",
+      "en": "My golden Bengal,",
+      "ar": "يا بنغالي الذهبية،"
+    },
+    {
+      "bn": "আমি তোমায় ভালবাসি",
+      "en": "I love you.",
+      "ar": "إني أحبكِ."
+    },
+    {
+      "bn": "চিরদিন তোমার আকাশ",
+      "en": "Forever your sky,",
+      "ar": "سماؤكِ على الدوام،"
+    },
+    {
+      "bn": "চিরদিন তোমার আকাশ, তোমার বাতাস আমার প্রাণে—",
+      "en": "Forever your sky and your air, in my heart,",
+      "ar": "سماؤكِ ونسيمكِ على الدوام، في قلبي،"
+    },
+    {
+      "bn": "ও মা, আমার প্রাণে বাজায় বাঁশি",
+      "en": "O mother, they play a flute in my heart.",
+      "ar": "يا أمي، يعزفان الناي في قلبي."
+    },
+    {
+      "bn": "সোনার বাংলা",
+      "en": "Golden Bengal,",
+      "ar": "بنغالي الذهبية،"
+    },
+    {
+      "bn": "আমি তোমায় ভালবাসি",
+      "en": "I love you.",
+      "ar": "إني أحبكِ."
+    },
+    {
+      "bn": "ও মা, ফাগুনে তোর আমের বনে ঘ্রাণে পাগল করে",
+      "en": "O mother, in spring the scent of your mango groves drives me wild with joy,",
+      "ar": "يا أمي، في الربيع يُسكرني عبير بساتين المانجو عندكِ،"
+    },
+    {
+      "bn": "মরি হায়, হায় রে—",
+      "en": "ah, what a thrill!",
+      "ar": "آهٍ، يا للروعة!"
+    },
+    {
+      "bn": "ও মা, ফাগুনে তোর আমের বনে ঘ্রাণে পাগল করে",
+      "en": "O mother, in spring the scent of your mango groves drives me wild with joy,",
+      "ar": "يا أمي، في الربيع يُسكرني عبير بساتين المانجو عندكِ،"
+    },
+    {
+      "bn": "ও মা, অঘ্রানে তোর ভরা খেতে কী দেখেছি",
+      "en": "O mother, in late autumn, in your full fields, what have I seen?",
+      "ar": "يا أمي، في أواخر الخريف، ماذا رأيتُ في حقولكِ الممتلئة؟"
+    },
+    {
+      "bn": "আমি কী দেখেছি মধুর হাসি",
+      "en": "Such sweet smiles I have seen.",
+      "ar": "رأيتُ بسمةً عذبة."
+    },
+    {
+      "bn": "সোনার বাংলা",
+      "en": "Golden Bengal,",
+      "ar": "بنغالي الذهبية،"
+    },
+    {
+      "bn": "আমি তোমায় ভালবাসি",
+      "en": "I love you.",
+      "ar": "إني أحبكِ."
+    },
+    {
+      "bn": "কী শোভা, কী ছায়া গো, কী স্নেহ, কী মায়া গো!",
+      "en": "What beauty, what shade, what love, what tenderness!",
+      "ar": "أيّ جمال، وأيّ ظلال، وأيّ حنان، وأيّ مودّة!"
+    },
+    {
+      "bn": "কী আঁচল বিছায়েছ বটের মূলে, নদীর কূলে কূলে",
+      "en": "What a quilt you have spread at the feet of the banyan trees, along the river banks!",
+      "ar": "أيّ رداء بسطتِه عند جذور أشجار البانيان، على ضفاف الأنهار!"
+    },
+    {
+      "bn": "মা, তোর মুখের বাণী আমার কানে লাগে সুধার মতো",
+      "en": "Mother, the words from your lips are like nectar to my ears,",
+      "ar": "يا أمي، كلماتكِ في أذني كالرحيق،"
+    },
+    {
+      "bn": "মরি হায়, হায় রে—",
+      "en": "ah, what a thrill!",
+      "ar": "آهٍ، يا للروعة!"
+    },
+    {
+      "bn": "মা, তোর মুখের বাণী আমার কানে লাগে সুধার মতো",
+      "en": "Mother, the words from your lips are like nectar to my ears,",
+      "ar": "يا أمي، كلماتكِ في أذني كالرحيق،"
+    },
+    {
+      "bn": "মা তোর বদন খানি মলিন হলে আমি নয়ন—",
+      "en": "Mother, when sadness clouds your face, my eyes,",
+      "ar": "يا أمي، إن علا وجهكِ الحزن، فإن عينيّ،"
+    },
+    {
+      "bn": "ও মা, আমি নয়ন জলে ভাসি",
+      "en": "O mother, my eyes fill with tears.",
+      "ar": "يا أمي، تغرق عيناي بالدموع."
+    },
+    {
+      "bn": "সোনার বাংলা",
+      "en": "Golden Bengal,",
+      "ar": "بنغالي الذهبية،"
+    },
+    {
+      "bn": "আমি তোমায় ভালবাসি",
+      "en": "I love you.",
+      "ar": "إني أحبكِ."
+    }
+  ]
+}

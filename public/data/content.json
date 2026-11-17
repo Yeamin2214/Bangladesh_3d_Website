@@ -1,0 +1,1055 @@
+{
+ "site": {
+  "title": "Bangladesh",
+  "titleBn": "বাংলাদেশ",
+  "tagline": "Land of rivers, tigers and a mother tongue worth fighting for",
+  "guideName": "Bagh Mama",
+  "quickFacts": [
+   "Capital: Dhaka",
+   "Independence declared: 26 March 1971. Victory Day: 16 December 1971",
+   "State language: Bangla (Bengali)",
+   "National animal: Royal Bengal Tiger",
+   "National flower: Shapla (water lily)",
+   "National fruit: Jackfruit",
+   "National fish: Ilish (hilsa)",
+   "National bird: Doel (oriental magpie robin)",
+   "Currency: Taka (BDT)",
+   "Flag: a red circle on a green field. Green for the land, red for the rising sun and the blood given for freedom",
+   "National anthem: Amar Sonar Bangla, written by Rabindranath Tagore",
+   "Home to the Sundarbans, the largest mangrove forest on Earth, and Cox's Bazar, one of the longest natural sea beaches in the world"
+  ]
+ },
+ "sections": [
+  {
+   "id": "nature",
+   "title": "Nature",
+   "titleBn": "প্রকৃতি",
+   "color": "#1fa97a",
+   "blurb": "Mangrove forests, swamp forests, haors, hills and a very long beach.",
+   "guide": "Welcome to my home turf! Forest, river, hill and sea. Swipe or use the arrows and I will tell you about each place.",
+   "items": [
+    {
+     "id": "sundarban_deer",
+     "title": "The Sundarbans",
+     "place": "Khulna Division",
+     "year": "UNESCO World Heritage, 1997",
+     "text": "The Sundarbans is the largest mangrove forest on Earth, spread across the delta where the Ganges, Brahmaputra and Meghna meet the Bay of Bengal. About 6,000 square kilometres of it lie in Bangladesh. Tides flood the forest twice a day, and its sundari trees breathe through roots that poke up out of the mud like spikes.",
+     "facts": [
+      "Spotted deer (chital) are the tiger's main prey",
+      "Honey collectors called Mawalis enter the forest every spring",
+      "The forest shields the coast from cyclones"
+     ],
+     "w": 1400,
+     "h": 933
+    },
+    {
+     "id": "sundarban_tiger",
+     "title": "Royal Bengal Tiger",
+     "place": "Sundarbans",
+     "year": "125 tigers counted in 2024",
+     "text": "The national animal of Bangladesh. The Sundarbans is the only place in the world where tigers live in a mangrove forest. They swim between islands, drink slightly salty water and hunt deer and wild boar. The 2024 camera survey counted 125 tigers on the Bangladesh side, up from 114 in 2018 and 106 in 2015.",
+     "facts": [
+      "Strong swimmers that cross wide tidal rivers",
+      "Every tiger has a unique stripe pattern",
+      "Locals respectfully call the tiger 'Mama' (uncle)"
+     ],
+     "w": 1400,
+     "h": 934
+    },
+    {
+     "id": "coxsbazar",
+     "title": "Cox's Bazar",
+     "place": "Chattogram Division",
+     "year": "",
+     "text": "Around 120 kilometres of unbroken sand along the Bay of Bengal, widely described as the longest natural sea beach in the world. The Marine Drive road runs beside it for about 80 kilometres, with green hills on one side and waves on the other. The town is named after Captain Hiram Cox, a British officer who served here in the 1790s.",
+     "facts": [
+      "Popular spots: Laboni, Inani and Himchari",
+      "Saint Martin's, the country's only coral island, lies to the south"
+     ],
+     "w": 1360,
+     "h": 768
+    },
+    {
+     "id": "ratargul",
+     "title": "Ratargul Swamp Forest",
+     "place": "Gowainghat, Sylhet",
+     "year": "",
+     "text": "One of the very few freshwater swamp forests in Bangladesh. In the monsoon the Goain River floods it and the trees stand deep in water, so visitors glide between the trunks in small wooden boats. In the dry season the water drains away and you can walk the forest floor.",
+     "facts": [
+      "Best visited from June to September",
+      "Koroch trees dominate the forest",
+      "Home to snakes, monkeys, kingfishers and herons"
+     ],
+     "w": 1400,
+     "h": 1000
+    },
+    {
+     "id": "ratargul2",
+     "title": "Inside Ratargul",
+     "place": "Sylhet",
+     "year": "",
+     "text": "Under the canopy the light turns green and the water turns into a mirror. People often call Ratargul the Amazon of Bangladesh. The silence is broken only by paddles and birds.",
+     "facts": [
+      "Declared a special biodiversity conservation area in 2015"
+     ],
+     "w": 1600,
+     "h": 928
+    },
+    {
+     "id": "bichanakandi",
+     "title": "Bichanakandi",
+     "place": "Gowainghat, Sylhet",
+     "year": "",
+     "text": "A bed of smooth stones where cold, clear streams come down from the Meghalaya hills and join the Piyain River. The name roughly means 'a bed laid out'. In the rainy season clouds sit on the hills and waterfalls appear on the far side of the border.",
+     "facts": [
+      "Reached by boat from Hadarpar",
+      "Water is clearest just after the monsoon"
+     ],
+     "w": 1248,
+     "h": 832
+    },
+    {
+     "id": "lalakhal",
+     "title": "Lalakhal",
+     "place": "Jaintiapur, Sylhet",
+     "year": "",
+     "text": "A stretch of the Shari River famous for its blue-green water. Minerals carried down from the Jaintia hills give the river its colour, which shifts from emerald to turquoise as the light changes. Tea gardens and forest line both banks.",
+     "facts": [
+      "Colour is strongest in winter when the water is still",
+      "A boat ride from Sarighat takes about an hour"
+     ],
+     "w": 1248,
+     "h": 832
+    },
+    {
+     "id": "nafakhum",
+     "title": "Nafakhum Waterfall",
+     "place": "Thanchi, Bandarban",
+     "year": "",
+     "text": "A wide waterfall on the Remakri stream, deep in the Bandarban hills. Reaching it takes a boat trip up the Sangu River and a trek on foot, which is a big part of the adventure. In Marma, 'khum' means waterfall. In full monsoon flow the whole river roars over the rock shelf.",
+     "facts": [
+      "Often nicknamed the Niagara of Bangladesh",
+      "Marma, Tripura and other hill communities live nearby"
+     ],
+     "w": 1400,
+     "h": 934
+    },
+    {
+     "id": "tanguar",
+     "title": "Tanguar Haor",
+     "place": "Sunamganj",
+     "year": "Ramsar wetland since 2000",
+     "text": "A huge seasonal wetland at the foot of the Meghalaya hills. In the monsoon it becomes an inland sea, and in winter the water shrinks into dozens of lakes that attract hundreds of thousands of migratory birds. It is the second Ramsar site of Bangladesh, after the Sundarbans.",
+     "facts": [
+      "Around 100 square kilometres",
+      "Known for fish, swamp trees and winter ducks",
+      "Houseboat trips are the popular way to visit"
+     ],
+     "w": 1600,
+     "h": 928
+    },
+    {
+     "id": "hanging_bridge",
+     "title": "Hanging Bridge of Rangamati",
+     "place": "Kaptai Lake, Rangamati",
+     "year": "",
+     "text": "A 335 foot suspension footbridge over an arm of Kaptai Lake, and the symbol of Rangamati. Kaptai is the largest man-made lake in Bangladesh, formed when the Karnaphuli River was dammed for hydropower in the 1960s. The hills around it are home to Chakma, Marma and many other communities.",
+     "facts": [
+      "Locally called Jhulonto Bridge",
+      "Boat trips go to Shuvolong waterfall"
+     ],
+     "w": 1600,
+     "h": 928
+    },
+    {
+     "id": "tea1",
+     "title": "Tea Gardens",
+     "place": "Sreemangal, Moulvibazar",
+     "year": "",
+     "text": "Sreemangal is called the tea capital of Bangladesh. Rolling hills are covered in neat rows of tea bushes, shaded by tall trees. Commercial tea growing in the region began at Malnicherra near Sylhet in 1854, and today the country has well over 160 tea estates.",
+     "facts": [
+      "Try the famous seven-layer tea",
+      "Lawachara rainforest is next door"
+     ],
+     "w": 1600,
+     "h": 840
+    },
+    {
+     "id": "tea2",
+     "title": "Two Leaves and a Bud",
+     "place": "Sreemangal",
+     "year": "",
+     "text": "Tea is still plucked by hand. Pickers take only the top two leaves and the bud from each shoot and carry them in baskets on their backs. Most pickers are women, and their skill decides the quality of the cup.",
+     "facts": [
+      "Main plucking season runs from spring to late autumn"
+     ],
+     "w": 1264,
+     "h": 848
+    },
+    {
+     "id": "hills",
+     "title": "Hills Above the Clouds",
+     "place": "Chittagong Hill Tracts",
+     "year": "",
+     "text": "In the south-east, Bangladesh rises into green ridges where clouds settle in the valleys at dawn. The country's highest peaks stand here in Bandarban. Tazing Dong is the officially listed highest peak, while many trekkers and surveys point to Saka Haphong near the Myanmar border, at a little over 1,050 metres.",
+     "facts": [
+      "Sajek Valley and Nilgiri are loved for sunrise views",
+      "Keokradong is the best known trekking peak"
+     ],
+     "w": 1168,
+     "h": 880
+    },
+    {
+     "id": "sunset",
+     "title": "Sunset on the Water",
+     "place": "Coast and rivers of Bangladesh",
+     "year": "",
+     "text": "Bangladesh is a land of rivers. Hundreds of them cross the country on their way to the Bay of Bengal, carrying boats, launches and cargo ships. At dusk the water turns to copper and the whole delta slows down.",
+     "facts": [
+      "The Padma, Meghna and Jamuna are the three great rivers",
+      "Kuakata beach is known for both sunrise and sunset over the sea"
+     ],
+     "w": 1168,
+     "h": 880
+    }
+   ]
+  },
+  {
+   "id": "heritage",
+   "title": "Heritage",
+   "titleBn": "ঐতিহ্য",
+   "color": "#d98a3a",
+   "blurb": "Sultanate mosques, terracotta art, a pink palace and bold new architecture.",
+   "guide": "Six hundred years of builders. Brick, terracotta, black stone, and some very modern ideas too.",
+   "items": [
+    {
+     "id": "sixty_dome",
+     "title": "Sixty Dome Mosque",
+     "place": "Bagerhat",
+     "year": "15th century. UNESCO World Heritage, 1985",
+     "text": "Shat Gombuj Masjid is the largest mosque in Bangladesh from the Sultanate period. It was built by the saint and governor Khan Jahan Ali, who founded a whole city here on the edge of the Sundarbans. Despite the name, the roof carries 77 domes, held up by 60 stone pillars inside.",
+     "facts": [
+      "Part of the Historic Mosque City of Bagerhat",
+      "Thick tapered brick walls in the Tughlaq style",
+      "Four round towers stand at the corners"
+     ],
+     "w": 1400,
+     "h": 743
+    },
+    {
+     "id": "paharpur",
+     "title": "Paharpur Buddhist Vihara",
+     "place": "Paharpur, Naogaon",
+     "year": "Late 8th century. UNESCO World Heritage, 1985",
+     "text": "Somapura Mahavihara, \"the great monastery\", was built by Dharmapala, the second king of the Pala dynasty. A huge square wall holds 177 small cells where monks lived and studied, and in the middle rises a tall cross-shaped temple of brick, decorated with terracotta plaques. It is one of the greatest Buddhist monasteries south of the Himalayas.",
+     "facts": [
+      "Built in the reign of Dharmapala (about 781 to 821)",
+      "177 monks’ cells line the outer wall",
+      "Its design influenced Buddhist temples far beyond Bengal"
+     ],
+     "w": 2000,
+     "h": 1335
+    },
+    {
+     "id": "chhota_sona",
+     "title": "Chhota Sona Mosque",
+     "place": "Gaur, Chapainawabganj",
+     "year": "Built between 1493 and 1519",
+     "text": "The 'Small Golden Mosque' was built by Wali Muhammad during the reign of Sultan Alauddin Husain Shah. Its brick core is covered in carved stone, and its fifteen domes were once gilded, which gave the mosque its name. It is often called the jewel of Sultanate architecture in Bengal.",
+     "facts": [
+      "Stands in the ruins of Gaur, the old capital of Bengal",
+      "The central row is roofed with chauchala (hut-shaped) vaults"
+     ],
+     "w": 1200,
+     "h": 630
+    },
+    {
+     "id": "rajbibi",
+     "title": "Rajbibi Mosque",
+     "place": "Gaur, Chapainawabganj",
+     "year": "Around 1480",
+     "text": "Also called Khania Dighi Mosque after the large pond beside it. It has one big dome over the prayer hall and three small ones over the veranda. The brick walls are covered in terracotta panels. The name suggests it was built by a lady of the royal household.",
+     "facts": [
+      "Rajbibi means 'royal lady'",
+      "One of several Sultanate monuments close to Chhota Sona Mosque"
+     ],
+     "w": 1200,
+     "h": 630
+    },
+    {
+     "id": "bagha",
+     "title": "Bagha Mosque",
+     "place": "Bagha, Rajshahi",
+     "year": "1523 to 1524",
+     "text": "Built by Sultan Nusrat Shah, this ten-domed brick mosque is famous for its terracotta. Almost every surface carries carved panels of vines, roses, and even mango motifs, a nod to Rajshahi, the mango heartland. The mosque appears on the 50 taka banknote.",
+     "facts": [
+      "Stands beside a large historic pond",
+      "A fine example of the Husain Shahi style"
+     ],
+     "w": 1200,
+     "h": 630
+    },
+    {
+     "id": "kusumba",
+     "title": "Kusumba Mosque",
+     "place": "Manda, Naogaon",
+     "year": "1558 to 1559",
+     "text": "Known as the Black Gem of Bengal. Unlike most mosques in a land of brick, Kusumba is faced inside and out with dark basalt brought by river from the Rajmahal hills. It has six domes and richly carved stone mihrabs. You can see it on the 5 taka note.",
+     "facts": [
+      "One of very few stone-clad Sultanate mosques",
+      "Survived the great earthquake of 1897"
+     ],
+     "w": 1200,
+     "h": 630
+    },
+    {
+     "id": "atia",
+     "title": "Atia Mosque",
+     "place": "Delduar, Tangail",
+     "year": "1609",
+     "text": "Built by Sayeed Khan Panni in honour of the saint Shah Baba Kashmiri. It blends two eras: the curved cornices and terracotta of the Sultanate style with the domes and plaster panels of the new Mughal style. It was once printed on the 10 taka note.",
+     "facts": [
+      "One large dome and three smaller ones",
+      "Stands by the Louhajang River"
+     ],
+     "w": 1200,
+     "h": 630
+    },
+    {
+     "id": "atia_terracotta",
+     "title": "Terracotta Wall, Atia",
+     "place": "Tangail",
+     "year": "17th century",
+     "text": "Bengal has clay but almost no stone, so its builders turned brick into art. These moulded and carved terracotta panels show rosettes, lattices and geometric patterns, repeated across the wall like fabric.",
+     "facts": [
+      "Terracotta means 'baked earth'",
+      "Each tile was shaped by hand before firing"
+     ],
+     "w": 957,
+     "h": 1600
+    },
+    {
+     "id": "terracotta",
+     "title": "Terracotta Ornament",
+     "place": "Sultanate Bengal",
+     "year": "15th to 17th century",
+     "text": "A framed panel of flowers and knot patterns set into a brick wall. The same craft decorates mosques and temples across the country, including the famous Kantajew Temple in Dinajpur, where terracotta scenes cover every wall.",
+     "facts": [
+      "Islamic panels use plants and geometry, never figures",
+      "The craft is still alive among potters today"
+     ],
+     "w": 1219,
+     "h": 1600
+    },
+    {
+     "id": "ahsan_manzil",
+     "title": "Ahsan Manzil",
+     "place": "Old Dhaka, on the Buriganga",
+     "year": "1859 to 1872",
+     "text": "The Pink Palace was the seat of the Nawabs of Dhaka. Nawab Abdul Ghani built it and named it after his son Ahsanullah. The grand staircase faces the river, and the dome was added after a tornado damaged the building in 1888. Today it is a national museum.",
+     "facts": [
+      "Indo-Saracenic style",
+      "The Nawab family funded Dhaka's first electric street lights in 1901",
+      "Opened as a museum in 1992"
+     ],
+     "w": 2000,
+     "h": 1333
+    },
+    {
+     "id": "curzon_hall",
+     "title": "Curzon Hall",
+     "place": "University of Dhaka",
+     "year": "1904 to 1908",
+     "text": "Lord Curzon, the Viceroy of India, laid the foundation stone on 19 February 1904. It was first planned as a town hall. The red brick building mixes European design with Mughal arches and domes, coloured red to look like the sandstone of the Mughal palaces. When the University of Dhaka opened in 1921, Curzon Hall became the home of its science faculty, and it still is today.",
+     "facts": [
+      "Foundation stone laid on 19 February 1904",
+      "Students here spoke out against the state language policy in 1948, an early step of the Language Movement",
+      "Home of the Faculty of Science, University of Dhaka"
+     ],
+     "w": 2000,
+     "h": 1136
+    },
+    {
+     "id": "as_salam",
+     "title": "As-Salam Jame Mosque",
+     "place": "Ramgati, Lakshmipur",
+     "year": "Completed 2022",
+     "text": "A modern brick mosque designed by Archeground. It has no ordinary windows. Light and air enter through tall gaps between brick fins and open courts, so the hall stays cool without machines. Built on a raised base in a flood-prone area, it has become a gathering place for the whole community.",
+     "facts": [
+      "Lead architect: Nabi Newaz Khan",
+      "A madrasa shares the complex",
+      "Shows how new Bangladeshi architecture works with climate"
+     ],
+     "w": 1400,
+     "h": 992
+    },
+    {
+     "id": "shahabuddin",
+     "title": "Shahabuddin Foundation School",
+     "place": "Chandpur",
+     "year": "Established 2017",
+     "text": "A village school designed by Archeground to feel like a Bengali homestead: rooms around a courtyard, deep verandas, a tree in the middle and screens that let the breeze through. Local materials and local builders kept it familiar for the children who study here.",
+     "facts": [
+      "Lead architect: Lutfullahil Majid",
+      "Fees are kept very low and funded by the foundation"
+     ],
+     "w": 750,
+     "h": 496
+    },
+    {
+     "id": "sajek_mosque",
+     "title": "Mosque in the Hills",
+     "place": "Sajek Valley, Rangamati",
+     "year": "",
+     "text": "A white mosque on a green ridge, with range after range of hills fading into the distance. Sajek sits about 1,800 feet above sea level and is known as the kingdom of clouds.",
+     "facts": [
+      "Reached by road through Khagrachhari",
+      "Sunrise above the clouds is the main attraction"
+     ],
+     "w": 1360,
+     "h": 768
+    },
+    {
+     "id": "war_cemetery",
+     "title": "Mainamati War Cemetery",
+     "place": "Cumilla",
+     "year": "Second World War",
+     "text": "A quiet hillside garden where more than 700 soldiers of the Second World War are buried. Cumilla was a major army hospital base during the Burma campaign. The cemetery is cared for by the Commonwealth War Graves Commission.",
+     "facts": [
+      "Soldiers of many nations and faiths rest here",
+      "The Buddhist ruins of Mainamati are close by"
+     ],
+     "w": 1400,
+     "h": 933
+    }
+   ]
+  },
+  {
+   "id": "history",
+   "title": "History",
+   "titleBn": "ইতিহাস",
+   "color": "#e2504c",
+   "blurb": "From the last Nawab to the Language Movement and the Liberation War.",
+   "guide": "This one is serious. Walk the timeline with me, from 1757 to 1971.",
+   "items": [
+    {
+     "id": "siraj",
+     "title": "Nawab Siraj ud-Daulah",
+     "place": "Bengal",
+     "year": "1757",
+     "text": "The last independent Nawab of Bengal. He came to the throne in 1756, barely in his twenties. On 23 June 1757 he was defeated at the Battle of Plassey after his commander Mir Jafar changed sides. The defeat opened the door to nearly two centuries of British rule.",
+     "facts": [
+      "Capital: Murshidabad",
+      "Plassey is remembered as a turning point for the whole subcontinent"
+     ],
+     "w": 974,
+     "h": 1600
+    },
+    {
+     "id": "jc_bose",
+     "title": "Sir Jagadish Chandra Bose",
+     "place": "Born in Mymensingh, family home in Bikrampur",
+     "year": "1858 to 1937",
+     "text": "A physicist and plant scientist far ahead of his time. In the 1890s he demonstrated wireless signalling with very short radio waves. He then invented the crescograph, an instrument that could measure plant growth, and showed that plants respond to their surroundings.",
+     "facts": [
+      "Called a father of radio science",
+      "Refused to patent most of his inventions",
+      "Also wrote early Bengali science fiction"
+     ],
+     "w": 1280,
+     "h": 1600
+    },
+    {
+     "id": "salimullah",
+     "title": "Nawab Sir Salimullah",
+     "place": "Dhaka",
+     "year": "1871 to 1915",
+     "text": "The Nawab of Dhaka and a leading voice for education in East Bengal. In 1906 he hosted the conference in Dhaka where the All-India Muslim League was founded. He campaigned for a university in Dhaka and gave land for it. Dhaka University opened in 1921.",
+     "facts": [
+      "Lived in Ahsan Manzil",
+      "Salimullah Muslim Hall at Dhaka University carries his name"
+     ],
+     "w": 1083,
+     "h": 1400
+    },
+    {
+     "id": "famine43_a",
+     "title": "The Bengal Famine",
+     "place": "Bengal",
+     "year": "1943",
+     "text": "During the Second World War, a famine killed an estimated two to three million people in Bengal. A young art teacher, Zainul Abedin, drew what he saw on the streets of Calcutta with black ink on cheap packing paper. His famine sketches shocked the public and made him famous.",
+     "facts": [
+      "Artist: Zainul Abedin (1914 to 1976)",
+      "He is honoured as Shilpacharya, the great teacher of art"
+     ],
+     "w": 555,
+     "h": 555
+    },
+    {
+     "id": "famine43_d",
+     "title": "Famine Sketch",
+     "place": "Zainul Abedin",
+     "year": "1943",
+     "text": "A mother and child beside a dustbin. Many of these works are now kept in the Bangladesh National Museum and the Zainul Abedin museum in Mymensingh.",
+     "facts": [
+      "In 1948 Abedin founded the art institute that became the Faculty of Fine Arts, Dhaka University"
+     ],
+     "w": 555,
+     "h": 555
+    },
+    {
+     "id": "lang52_a",
+     "title": "The Language Movement",
+     "place": "Dhaka",
+     "year": "1952",
+     "text": "After 1947, Urdu was declared the only state language of Pakistan, although most people spoke Bangla. Students and citizens protested. On 21 February 1952 police fired on a march near Dhaka Medical College. Salam, Barkat, Rafiq, Jabbar and others were killed.",
+     "facts": [
+      "Bangla was recognised as a state language in 1956",
+      "The day is observed as Shaheed Dibosh, Martyrs' Day"
+     ],
+     "w": 857,
+     "h": 482
+    },
+    {
+     "id": "lang52_b",
+     "title": "21 February",
+     "place": "Dhaka University",
+     "year": "1952",
+     "text": "Students gathered on the university grounds and decided to defy the ban on public assembly. In 1999 UNESCO declared 21 February International Mother Language Day, now observed around the world. The Shaheed Minar monument marks the place of the sacrifice.",
+     "facts": [
+      "Bangla is among the most spoken languages in the world",
+      "People walk barefoot to the Shaheed Minar with flowers each year"
+     ],
+     "w": 1400,
+     "h": 956
+    },
+    {
+     "id": "uprising69",
+     "title": "The Mass Uprising",
+     "place": "Dhaka",
+     "year": "1969",
+     "text": "Students, workers and ordinary people filled the streets of East Pakistan demanding rights and an end to military rule. The protests brought down the government of Ayub Khan. This photograph of a small boy marching at the front of a procession became a symbol of that year.",
+     "facts": [
+      "Photograph by Rashid Talukder",
+      "The uprising led to the 1970 general election"
+     ],
+     "w": 1600,
+     "h": 1428
+    },
+    {
+     "id": "guerrilla71",
+     "title": "Training for Freedom",
+     "place": "Liberation War",
+     "year": "1971",
+     "text": "After the army crackdown of 25 March 1971, independence was declared on 26 March. Students, farmers, workers and soldiers joined the Mukti Bahini, the liberation forces. Many learned to handle a rifle in camps like this within a few weeks.",
+     "facts": [
+      "The war lasted nine months",
+      "The country was divided into 11 sectors for the war"
+     ],
+     "w": 1568,
+     "h": 1560
+    },
+    {
+     "id": "war71",
+     "title": "Mukti Bahini",
+     "place": "Liberation War",
+     "year": "1971",
+     "text": "Freedom fighters raise their fists in a liberated area. Most were volunteers in lungis and shirts, fighting a trained army with whatever weapons they could find. Millions of people became refugees and a great many lives were lost.",
+     "facts": [
+      "Women served as fighters, nurses, messengers and organisers"
+     ],
+     "w": 1600,
+     "h": 901
+    },
+    {
+     "id": "bir_sreshtho",
+     "title": "The Seven Bir Sreshtho",
+     "place": "Heroes of the Liberation War",
+     "year": "Announced 15 December 1973",
+     "text": "Bir Sreshtho, \"the most valiant hero\", is the highest gallantry award of Bangladesh. Only seven people have ever received it, and all seven gave their lives in 1971: Captain Mohiuddin Jahangir, Flight Lieutenant Matiur Rahman, Engine Room Artificer Ruhul Amin, Lance Naik Nur Mohammad Sheikh, Lance Naik Munshi Abdur Rouf, Sepoy Mostafa Kamal and Sepoy Hamidur Rahman.",
+     "facts": [
+      "They came from the army, the navy, the air force and the East Pakistan Rifles",
+      "The award was announced in the Bangladesh Gazette on 15 December 1973",
+      "Seven galleries of the National Parliament are named after them"
+     ],
+     "w": 2000,
+     "h": 1500
+    },
+    {
+     "id": "mujibnagar",
+     "title": "Mujibnagar Memorial",
+     "place": "Meherpur",
+     "year": "17 April 1971",
+     "text": "In a mango grove at Baidyanathtala, the first government of Bangladesh took its oath on 17 April 1971 and the place was named Mujibnagar. The memorial has 23 triangular walls that rise step by step, standing for the 23 years from 1947 to 1971.",
+     "facts": [
+      "Designed by architect Tanvir Karim",
+      "17 April is observed as Mujibnagar Day"
+     ],
+     "w": 1400,
+     "h": 786
+    },
+    {
+     "id": "surrender71",
+     "title": "Victory",
+     "place": "Ramna Race Course, Dhaka",
+     "year": "16 December 1971",
+     "text": "On the afternoon of 16 December 1971, the commander of the Pakistani forces in the east signed the Instrument of Surrender before the joint command of Bangladeshi and Indian forces. Bangladesh was free. The day is celebrated every year as Bijoy Dibosh, Victory Day.",
+     "facts": [
+      "The site is now Suhrawardy Udyan",
+      "The National Martyrs' Memorial stands at Savar"
+     ],
+     "w": 1600,
+     "h": 1091
+    },
+    {
+     "id": "victory71",
+     "title": "Joy of Freedom",
+     "place": "Painting",
+     "year": "1971",
+     "text": "An artist's vision of victory: farmers, fighters and women together, rifles in the air, the first flag of Bangladesh held high. That flag carried a golden map of the country inside the red circle.",
+     "facts": [
+      "The map was removed from the flag in 1972 to keep the design simple"
+     ],
+     "w": 1094,
+     "h": 761
+    },
+    {
+     "id": "famine74_a",
+     "title": "The Famine of 1974",
+     "place": "Bangladesh",
+     "year": "1974",
+     "text": "Only three years after independence, floods along the Brahmaputra destroyed crops and rice prices soared. Hunger spread through the north of the young country. The famine left a deep mark on how Bangladesh thinks about food security.",
+     "facts": [
+      "Today Bangladesh grows enough rice to feed far more people than in 1974"
+     ],
+     "w": 1400,
+     "h": 919
+    }
+   ]
+  },
+  {
+   "id": "culture",
+   "title": "Culture",
+   "titleBn": "সংস্কৃতি",
+   "color": "#f2b23e",
+   "blurb": "Bengali New Year, legendary muslin and the rhythm of village life.",
+   "guide": "Time to celebrate! New year, new clothes, drums everywhere.",
+   "items": [
+    {
+     "id": "boishakh_rally",
+     "title": "Pohela Boishakh",
+     "place": "Nationwide",
+     "year": "14 April",
+     "text": "The first day of the Bengali year. People wear red and white, eat traditional food and pour into the streets. In Dhaka, students of the Faculty of Fine Arts lead a huge colourful procession with giant masks, birds and boats. UNESCO listed the procession as Intangible Cultural Heritage in 2016.",
+     "facts": [
+      "The Bengali calendar is linked to the harvest and Mughal tax collection",
+      "Shubho Noboborsho means Happy New Year",
+      "The procession began in 1989"
+     ],
+     "w": 1232,
+     "h": 832
+    },
+    {
+     "id": "boishakh_mela",
+     "title": "Boishakhi Mela",
+     "place": "Towns and villages",
+     "year": "April",
+     "text": "New Year fairs spring up across the country. There are hand-turned wooden ferris wheels called nagordola, clay toys, bangles, sweets, puppet shows and folk singers. Shopkeepers open a fresh account book for the year, called Hal Khata, and treat customers to sweets.",
+     "facts": [
+      "Nagordola rides are pushed by hand",
+      "Clay dolls and painted pots are classic fair buys"
+     ],
+     "w": 1400,
+     "h": 930
+    },
+    {
+     "id": "boishakh_lathi",
+     "title": "Lathi Khela",
+     "place": "Folk tradition",
+     "year": "",
+     "text": "A traditional stick-fighting art of Bengal. Performers in bright costumes spin, strike and block with bamboo staffs to the beat of drums. Once used to train village guards, it is now performed at New Year and other festivals.",
+     "facts": [
+      "Lathi means stick",
+      "Performers are called lathial"
+     ],
+     "w": 1600,
+     "h": 1065
+    },
+    {
+     "id": "muslin_loom",
+     "title": "Dhaka Muslin",
+     "place": "Dhaka and Sonargaon",
+     "year": "Mughal era",
+     "text": "For centuries Dhaka produced the finest cotton cloth in the world. Muslin was so light that poets called it woven air, and it was traded from Rome to China. It was spun from a rare cotton, phuti karpas, that grew along the Meghna River. Under colonial rule the industry collapsed and the plant vanished.",
+     "facts": [
+      "It is said a whole sari could pass through a finger ring",
+      "Weavers worked in the humid morning air so the thread would not snap"
+     ],
+     "w": 1024,
+     "h": 840
+    },
+    {
+     "id": "muslin_sari",
+     "title": "Muslin Returns",
+     "place": "Bangladesh",
+     "year": "Revived from 2014",
+     "text": "A national project set out to bring muslin back. Researchers tracked down the phuti karpas plant, matched it by DNA with museum cloth, and trained spinners and weavers again. New muslin saris have now been woven, and Dhakai muslin received Geographical Indication status in 2021.",
+     "facts": [
+      "Jamdani, a patterned cousin of muslin, is on the UNESCO heritage list",
+      "One sari can take months to weave"
+     ],
+     "w": 770,
+     "h": 513
+    },
+    {
+     "id": "garments",
+     "title": "Ready-Made Garments",
+     "place": "Dhaka, Gazipur, Narayanganj and Chattogram",
+     "year": "The industry since the late 1970s",
+     "text": "The weaving skill of muslin lives on in a new form. Today Bangladesh is the world's second largest clothing exporter after China. Ready-made garments bring in more than 80 percent of the country's export earnings. More than four million people work in the factories, and most of them are women. Shirts, jeans, T-shirts and jackets made here are sold in shops all over the world.",
+     "facts": [
+      "Second largest apparel exporter in the world, after China",
+      "More than 80 percent of the country's export earnings",
+      "Over four million workers, about four in five of them women",
+      "Bangladesh has more LEED certified green garment factories than any other country",
+      "The European Union and the United States are the biggest buyers"
+     ],
+     "w": 1248,
+     "h": 832
+    },
+    {
+     "id": "harvest",
+     "title": "Harvest Season",
+     "place": "Rural Bangladesh",
+     "year": "Hemanta (late autumn)",
+     "text": "Rice is life in Bangladesh. When the Aman paddy turns gold in late autumn, families cut it by hand and carry it home on bullock carts. The harvest is followed by Nabanna, the festival of new rice, with cakes made from fresh rice flour.",
+     "facts": [
+      "Bangladesh is one of the world's largest rice producers",
+      "The year has six seasons: summer, monsoon, autumn, late autumn, winter and spring"
+     ],
+     "w": 750,
+     "h": 468
+    },
+    {
+     "id": "winter_fishing",
+     "title": "Fishing with Polo",
+     "place": "Villages",
+     "year": "Winter",
+     "text": "On misty winter mornings, when ponds and beels run shallow, villagers go out together with polo, cone-shaped bamboo traps. They press the trap into the water and reach in through the top to catch the fish by hand. It is as much a festival as a way of fishing.",
+     "facts": [
+      "'Mache bhate Bangali' means fish and rice make a Bengali"
+     ],
+     "w": 1400,
+     "h": 933
+    },
+    {
+     "id": "winter_dawn",
+     "title": "Winter Morning",
+     "place": "Rural Bangladesh",
+     "year": "Sheet (winter)",
+     "text": "Fog over the fields, a red sun, and someone already on the way to work. Winter is the season of date-palm juice, collected in clay pots overnight, and of pitha, the rice cakes made at home.",
+     "facts": [
+      "Fresh date juice is boiled into fragrant molasses called nolen gur"
+     ],
+     "w": 1400,
+     "h": 1051
+    },
+    {
+     "id": "village",
+     "title": "The Village Road",
+     "place": "Rural Bangladesh",
+     "year": "",
+     "text": "A raised path between water and paddy, a tin-roofed home, a single tree against the evening sky. Most of Bangladesh still looks like this. The countryside inspired the country's best loved poems and songs.",
+     "facts": [
+      "Poet Jibanananda Das called it Ruposhi Bangla, beautiful Bengal"
+     ],
+     "w": 1248,
+     "h": 832
+    }
+   ]
+  },
+  {
+   "id": "art",
+   "title": "Art",
+   "titleBn": "শিল্পকলা",
+   "color": "#b06cd6",
+   "blurb": "Farmers, fishermen and brides: everyday Bengal in paint and ink.",
+   "guide": "Our painters looked at ordinary people and saw heroes. Have a look.",
+   "items": [
+    {
+     "id": "art_struggle",
+     "title": "Struggle",
+     "place": "Zainul Abedin",
+     "year": "",
+     "text": "A bullock cart is stuck deep in mud. The man throws his whole body against the wheel and the animals strain forward. Zainul Abedin turned this everyday scene into a picture of a people who refuse to give up.",
+     "facts": [
+      "Known in Bangla as Sangram",
+      "One of the most recognised images in Bangladeshi art"
+     ],
+     "w": 555,
+     "h": 555
+    },
+    {
+     "id": "art_harvest",
+     "title": "Carrying the Harvest",
+     "place": "Rural life in watercolour",
+     "year": "",
+     "text": "Farmers walk home with bundles of ripe paddy hanging from shoulder poles. The strong backs and steady stride show pride in the work.",
+     "facts": [
+      "Bamboo shoulder poles are still used in the countryside"
+     ],
+     "w": 555,
+     "h": 555
+    },
+    {
+     "id": "art_fishermen",
+     "title": "Fishermen",
+     "place": "Rural life in watercolour",
+     "year": "",
+     "text": "A line of fishermen crosses a sandbank with nets, baskets and traps. Rivers shape daily life here, and the river people have always been a favourite subject for Bengali painters.",
+     "facts": [],
+     "w": 555,
+     "h": 555
+    },
+    {
+     "id": "art_plough",
+     "title": "The Plough",
+     "place": "Ink sketch",
+     "year": "",
+     "text": "A farmer and his bullocks, drawn in a few sweeping brush lines. The earth itself seems to move in the washes behind them.",
+     "facts": [
+      "Haal is the Bangla word for plough"
+     ],
+     "w": 555,
+     "h": 555
+    },
+    {
+     "id": "art_woman",
+     "title": "Woman",
+     "place": "Modern Bengali painting",
+     "year": "",
+     "text": "A woman rests her chin on her hand, wrapped in a striped sari. The glowing colours and bold outlines draw on folk painting while the mood is quiet and modern.",
+     "facts": [],
+     "w": 555,
+     "h": 555
+    },
+    {
+     "id": "art_brides",
+     "title": "The New Bride",
+     "place": "Modern Bengali painting",
+     "year": "",
+     "text": "Two women lean close together, eyes lowered. The flat colours and flowing black lines come straight from the pata scroll tradition of village artists, reworked in a modern style.",
+     "facts": [
+      "Notun bou means new bride"
+     ],
+     "w": 555,
+     "h": 555
+    },
+    {
+     "id": "art_figure",
+     "title": "Figure",
+     "place": "Modern Bengali painting",
+     "year": "",
+     "text": "A tall figure built from curves and colour fields. Bangladeshi modernists of the 1950s mixed European ideas with the shapes of local dolls and folk art.",
+     "facts": [],
+     "w": 555,
+     "h": 555
+    },
+    {
+     "id": "art_childhood",
+     "title": "Childhood",
+     "place": "Still life",
+     "year": "",
+     "text": "Marigolds in a vase and a painted clay horse on a yellow table. Clay toys like this are sold at every village fair, and for many people they are the colour of childhood.",
+     "facts": [
+      "The striped clay horse is a classic Bengali folk toy"
+     ],
+     "w": 555,
+     "h": 555
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food",
+   "titleBn": "খাবার",
+   "color": "#ef6f3c",
+   "blurb": "Rice, fish, fiery mashes and milky sweets.",
+   "guide": "My favourite part. I only eat deer, but you should try all of this.",
+   "items": [
+    {
+     "id": "panta_ilish",
+     "title": "Panta Ilish",
+     "place": "Bengali New Year special",
+     "year": "",
+     "text": "Rice soaked overnight in water, served cool with fried ilish (hilsa), green chillies, raw onion and a few bhortas. It began as a farmer's breakfast and is now the signature dish of Pohela Boishakh. Ilish is the national fish and is loved for its rich taste.",
+     "facts": [
+      "Served in clay bowls called shanki",
+      "Ilish from the Padma River is the most prized",
+      "Hilsa has Geographical Indication status for Bangladesh"
+     ],
+     "w": 1024,
+     "h": 768
+    },
+    {
+     "id": "platter",
+     "title": "Festive Platter",
+     "place": "Home cooking",
+     "year": "",
+     "text": "Golden rice in the middle, with fried fish, spiced egg and bhortas around it. A Bengali meal is about many small tastes on one plate, mixed by hand with a squeeze of lime.",
+     "facts": [
+      "Khichuri, rice cooked with lentils, is the classic rainy day meal",
+      "Eating with the right hand is the traditional way"
+     ],
+     "w": 852,
+     "h": 582
+    },
+    {
+     "id": "jamai_bhoj",
+     "title": "Jamai Bhoj",
+     "place": "A feast for the son-in-law",
+     "year": "",
+     "text": "When the jamai, the son-in-law, comes to visit, his wife’s family cooks the biggest meal of the year. Rice, fish fry, hilsa and rui curries, mutton and chicken, bhortas and bhajis, sweets and doi are laid out in small brass bowls on a banana leaf, and a plate of mango, jackfruit and other fruit comes at the end. It is the Bengali way of saying: you are family now.",
+     "facts": [
+      "Many small dishes, each in its own bowl of brass or bell metal",
+      "Summer is the favourite time, when mango and jackfruit are in season",
+      "The mother-in-law usually cooks the feast herself"
+     ],
+     "w": 1440,
+     "h": 1800
+    },
+    {
+     "id": "bhorta",
+     "title": "Bhorta",
+     "place": "Everyday favourite",
+     "year": "",
+     "text": "Bhorta means mashed. Almost anything can become one: potato, eggplant, lentils, dried fish, beans or shrimp. It is mashed with mustard oil, onion, chilli and coriander. A plate of rice with five or six bhortas is comfort food at its best.",
+     "facts": [
+      "Mustard oil gives the sharp kick",
+      "Shutki (dried fish) bhorta is the bold one"
+     ],
+     "w": 1400,
+     "h": 1400
+    },
+    {
+     "id": "rezala",
+     "title": "Beef Rezala and Bhuna",
+     "place": "Feast dish",
+     "year": "",
+     "text": "Slow-cooked beef in a thick, spicy gravy. Rezala has Mughal roots and uses yoghurt, ghee and whole chillies. Bhuna is cooked down until the spices cling to the meat. Both are stars of Eid tables and wedding feasts.",
+     "facts": [
+      "Best with paratha or plain polao",
+      "Kacchi biryani of Old Dhaka is another must-try"
+     ],
+     "w": 1600,
+     "h": 832
+    },
+    {
+     "id": "nakshi_pitha",
+     "title": "Nakshi Pitha",
+     "place": "Village kitchens, in winter",
+     "year": "",
+     "text": "Nakshi means design. Women in the villages roll out rice-flour dough and cut leaves, flowers and wheels into it by hand, with a thin stick, a thorn or a small knife. The cakes are fried and then soaked in syrup of sugar or date-palm molasses. The patterns pass from mother to daughter, and every family has its own.",
+     "facts": [
+      "Made in winter, when the new rice and date-palm molasses arrive",
+      "Every pattern is cut by hand, so no two cakes are the same",
+      "Often made for weddings and to welcome guests"
+     ],
+     "w": 1333,
+     "h": 2000
+    },
+    {
+     "id": "rosmalai",
+     "title": "Rosmalai",
+     "place": "Cumilla",
+     "year": "",
+     "text": "Soft little balls of fresh cheese soaked in thick, sweetened milk. The rosmalai of Cumilla is famous across the country. Bangladesh has a sweet for every district, from the curd of Bogura to the chomchom of Tangail.",
+     "facts": [
+      "Served chilled",
+      "Mishti doi (sweet yoghurt) is another classic",
+      "Sweets are shared at every piece of good news"
+     ],
+     "w": 900,
+     "h": 621
+    }
+   ]
+  }
+ ],
+ "icons": {
+  "tiger": {
+   "title": "Royal Bengal Tiger",
+   "titleBn": "রয়েল বেঙ্গল টাইগার",
+   "text": "The national animal of Bangladesh and the pride of the Sundarbans. Drag to turn me around.",
+   "facts": [
+    "Scientific name: Panthera tigris tigris",
+    "125 tigers were counted in the Bangladesh Sundarbans in 2024",
+    "The only tigers on Earth that live in mangrove forest",
+    "Excellent swimmers that cross tidal rivers",
+    "A roar can carry for about three kilometres",
+    "The national cricket team is nicknamed The Tigers"
+   ]
+  },
+  "rickshaw": {
+   "title": "The Rickshaw",
+   "titleBn": "রিকশা",
+   "text": "A moving piece of folk art. Dhaka is often called the rickshaw capital of the world. Drag to spin it and look at the painted hood and panels.",
+   "facts": [
+    "Rickshaws and rickshaw painting of Dhaka joined the UNESCO Intangible Cultural Heritage list in 2023",
+    "Every surface is decorated: hood, seat, back panel and handlebars",
+    "Favourite motifs are flowers, birds, film stars and village scenes",
+    "Cycle rickshaws came to Dhaka in the 1930s",
+    "The bell goes 'kring kring' and everybody knows it"
+   ]
+  },
+  "mosque": {
+   "title": "Sixty Dome Mosque",
+   "titleBn": "ষাট গম্বুজ মসজিদ",
+   "text": "Shat Gombuj Masjid in Bagerhat, built in the 15th century by Khan Jahan Ali. This is a 3D scan of the real building. Drag to fly around it and count the domes.",
+   "facts": [
+    "UNESCO World Heritage site since 1985",
+    "The roof has 77 domes, not 60",
+    "60 stone pillars hold up the roof inside",
+    "Thick brick walls that lean slightly inward, in the Tughlaq style",
+    "Four round towers stand at the corners",
+    "The largest mosque in Bangladesh from the Sultanate period"
+   ]
+  },
+  "minar": {
+   "title": "Central Shaheed Minar",
+   "titleBn": "কেন্দ্রীয় শহীদ মিনার",
+   "text": "The Shaheed Minar in Dhaka honours the students killed on 21 February 1952 while demanding Bangla as a state language. It was designed by the artist Hamidur Rahman together with the sculptor Novera Ahmed. The tall bent column in the middle is a mother, bowing her head in blessing. The columns on each side are her martyred sons, standing guard. The red circle behind them is the rising sun, and the colour of their blood. Drag to look around.",
+   "facts": [
+    "Designers: Hamidur Rahman with sculptor Novera Ahmed",
+    "Building started in 1957. It was first opened on 21 February 1963",
+    "Destroyed by the army in 1971 and rebuilt after independence",
+    "The main columns rise about 14 metres (46 feet)",
+    "The first Shaheed Minar was built overnight by students in 1952 and torn down by the police",
+    "Every 21 February people walk barefoot here with flowers, now International Mother Language Day"
+   ]
+  },
+  "smriti": {
+   "title": "National Martyrs' Memorial",
+   "titleBn": "জাতীয় স্মৃতিসৌধ",
+   "text": "Jatiyo Smriti Soudho stands in Savar, about 35 km north-west of Dhaka, in memory of everyone who gave their life in the Liberation War of 1971. The architect Syed Mainul Hossain won a national design competition in 1978. The monument is made of seven pairs of triangular walls. The front pair is the lowest and widest, and each pair behind it is taller and narrower, until the last one rises to a sharp peak. From every side it looks different. Drag to walk around it.",
+   "facts": [
+    "Architect: Syed Mainul Hossain, chosen from 57 entries in 1978",
+    "Opened on 16 December 1982, Victory Day",
+    "Height: 150 feet (about 46 metres)",
+    "Seven walls for seven struggles: 1952, 1954, 1956, 1962, 1966, 1969 and 1971",
+    "Built of concrete, with red brick paths, a lake and the graves of martyrs around it"
+   ]
+  },
+  "parliament": {
+   "title": "National Parliament House",
+   "titleBn": "জাতীয় সংসদ ভবন",
+   "text": "Jatiya Sangsad Bhaban stands in Sher-e-Bangla Nagar, Dhaka. The American architect Louis Kahn designed it. Work began in 1961, stopped during the Liberation War, and was finished on 28 January 1982. Kahn built it from concrete with thin bands of white marble, and cut giant circles, triangles and arches into the walls so daylight falls deep inside. A lake wraps around it, so the building seems to float. Drag to walk around it.",
+   "facts": [
+    "Architect: Louis Kahn, with Muzharul Islam",
+    "Built from 1961 to 1982, and first used on 15 February 1982",
+    "The whole complex covers about 208 acres",
+    "One of the largest legislative complexes in the world",
+    "Won the Aga Khan Award for Architecture in 1989"
+   ]
+  }
+ }
+}

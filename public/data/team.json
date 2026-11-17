@@ -1,0 +1,54 @@
+{
+ "members": [
+  {
+   "id": "yeamin",
+   "name": "Yeamin Safat",
+   "tier": 1
+  },
+  {
+   "id": "anas",
+   "name": "Anas Ahmad",
+   "tier": 1
+  },
+  {
+   "id": "tanvir",
+   "name": "Tanvir Siam",
+   "tier": 2
+  },
+  {
+   "id": "abdur",
+   "name": "Abdur Rahman",
+   "tier": 2
+  },
+  {
+   "id": "mumin",
+   "name": "Muhammad Mumin",
+   "tier": 3
+  },
+  {
+   "id": "hajjaj",
+   "name": "Hajjaj Mahmud",
+   "tier": 3
+  },
+  {
+   "id": "mahfuz",
+   "name": "Mahfuzur Rahman",
+   "tier": 3
+  },
+  {
+   "id": "habiba",
+   "name": "Habiba Khatun",
+   "tier": 3
+  }
+ ],
+ "order": [
+  "mahfuz",
+  "habiba",
+  "tanvir",
+  "yeamin",
+  "anas",
+  "abdur",
+  "mumin",
+  "hajjaj"
+ ]
+}

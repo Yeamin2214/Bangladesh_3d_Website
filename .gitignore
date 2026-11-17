@@ -1,0 +1,13 @@
+# secrets: never push your OpenRouter key
+.env
+.env.*
+!.env.example
+
+# installed packages and local tool folders
+node_modules/
+.vercel/
+
+# system junk
+.DS_Store
+Thumbs.db
+*.log

@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#04231b">
+<title>Bangladesh | An interactive 3D journey</title>
+<link rel="stylesheet" href="css/style.css">
+<script type="importmap">
+{ "imports": { "three": "./vendor/three/three.module.js", "three/addons/": "./vendor/three/addons/" } }
+</script>
+</head>
+<body class="mode-gate">
+
+<canvas id="stage" aria-label="3D scene"></canvas>
+<div id="fade"></div>
+
+<!-- Welcome gate -->
+<section id="gate">
+  <div class="gate-inner">
+    <div class="gate-flag" aria-hidden="true"><span></span></div>
+    <p class="gate-kicker">Welcome to</p>
+    <h1><span class="bn">বাংলাদেশ</span><span class="en">Bangladesh</span></h1>
+    <p class="gate-tag" id="gateTag">Land of rivers, tigers and a mother tongue worth fighting for</p>
+    <div class="gate-load"><div id="loadBar"></div></div>
+    <button id="enterBtn" disabled>Loading the journey…</button>
+    <p class="gate-hint">Best with sound on</p>
+  </div>
+</section>
+
+<!-- Top bar -->
+<header id="topbar">
+  <button id="homeBtn" class="brand" title="Back to start">
+    <span class="dot"></span><span class="bn">বাংলাদেশ</span><span class="sep"></span><span id="crumb">Bangladesh</span>
+  </button>
+  <nav class="tools">
+    <button id="journeyBtn" class="primary" title="A full screen show of every photo, with music">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>Start the journey
+    </button>
+    <button id="mapBtn">Map</button>
+    <button id="anthemBtn">Anthem</button>
+    <button id="factsBtn">Facts</button>
+    <button id="musicBtn" class="icon" title="Music on or off" aria-label="Music">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path class="on-only" d="M12 3v10.6A4 4 0 1 0 14 17V7h4V3z"/><path class="off-only" d="M12 3v10.6A4 4 0 1 0 14 17V7h4V3zM3 4.3 4.3 3 21 19.7 19.7 21z"/></svg>
+    </button>
+    <button id="fsBtn" class="icon" title="Full screen" aria-label="Full screen">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5v2H6v3zm11-5h5v5h-2V6h-3zM4 15h2v3h3v2H4zm14 0h2v5h-5v-2h3z"/></svg>
+    </button>
+  </nav>
+</header>
+
+<!-- Hub navigation -->
+<section id="stops">
+  <article class="stop s-left s-hero" data-i="0">
+    <p class="kick">A journey through</p>
+    <h1><span class="bn">বাংলাদেশ</span><span class="en">Bangladesh</span></h1>
+    <p class="lead">Land of rivers, tigers and a mother tongue worth fighting for.</p>
+    <button class="go-next">Scroll to begin <span>&darr;</span></button>
+  </article>
+  <article class="stop s-left" data-i="1">
+    <p class="kick">In memory of 1971</p>
+    <h2>National Martyrs' Memorial</h2><p class="sub bn">জাতীয় স্মৃতিসৌধ</p>
+    <p class="lead">Syed Mainul Hossain's seven pairs of triangular walls rise to a 150 foot peak, one for each of the seven struggles from 1952 to 1971.</p>
+    <button class="go-view" data-view="smriti">See it in 3D</button>
+  </article>
+  <article class="stop s-right" data-i="2">
+    <p class="kick">21 February 1952</p>
+    <h2>Central Shaheed Minar</h2><p class="sub bn">কেন্দ্রীয় শহীদ মিনার</p>
+    <p class="lead">Built for the students who gave their lives for the Bangla language. Hamidur Rahman and Novera Ahmed shaped it as a mother with her martyred sons, under a red rising sun.</p>
+    <button class="go-view" data-view="minar">See it in 3D</button>
+  </article>
+  <article class="stop s-left" data-i="3">
+    <p class="kick">Louis Kahn, 1982</p>
+    <h2>National Parliament House</h2><p class="sub bn">জাতীয় সংসদ ভবন</p>
+    <p class="lead">Louis Kahn's concrete masterpiece in Dhaka. Giant circles and triangles cut into the walls let the daylight in, and a lake wraps around it so it seems to float.</p>
+    <button class="go-view" data-view="parliament">See it in 3D</button>
+  </article>
+  <article class="stop s-right" data-i="4">
+    <p class="kick">National animal</p>
+    <h2>Royal Bengal Tiger</h2><p class="sub bn">রয়েল বেঙ্গল টাইগার</p>
+    <p class="lead">The pride of the Sundarbans, and the only tigers on Earth that live in a mangrove forest. In 2024 the survey counted 125 of them on our side of the forest.</p>
+    <button class="go-view" data-view="tiger">See it in 3D</button>
+  </article>
+  <article class="stop s-left" data-i="5">
+    <p class="kick">Folk art on three wheels</p>
+    <h2>The Rickshaw</h2><p class="sub bn">রিকশা</p>
+    <p class="lead">Every hood, seat and panel is painted by hand. Dhaka is called the rickshaw capital of the world, and its rickshaw art is on the UNESCO heritage list.</p>
+    <button class="go-view" data-view="rickshaw">See it in 3D</button>
+  </article>
+  <article class="stop s-right" data-i="6">
+    <p class="kick">UNESCO World Heritage</p>
+    <h2>Sixty Dome Mosque</h2><p class="sub bn">ষাট গম্বুজ মসজিদ</p>
+    <p class="lead">Built in the 15th century by Khan Jahan Ali in Bagerhat. The name says sixty, but the roof carries 77 domes. This is a 3D scan of the real building.</p>
+    <button class="go-view" data-view="mosque">See it in 3D</button>
+  </article>
+  <article class="stop s-left" data-i="7">
+    <p class="kick">8 divisions, 64 districts</p>
+    <h2>The Map of Bangladesh</h2><p class="sub bn">বাংলাদেশের মানচিত্র</p>
+    <p class="lead">Tap any division and it lifts out of the map in 3D. See what each one is famous for, and where Bangladesh sits in the world.</p>
+    <button class="go-map">Open the map</button>
+  </article>
+  <article class="stop s-top" data-i="8">
+    <p class="kick">Choose a doorway</p>
+    <h2>Explore Bangladesh</h2>
+  </article>
+</section>
+<nav id="dots" aria-label="Sections of the landing page"></nav>
+<p id="hubhint">Scroll, swipe up or press the down arrow</p>
+<nav id="hubnav"></nav>
+<nav id="mapbar"></nav>
+<div id="mapzoom"><button id="mzIn" aria-label="Zoom in">+</button><button id="mzOut" aria-label="Zoom out">&minus;</button><button id="mzReset" aria-label="Show all" title="Show all">&#8634;</button></div>
+
+<!-- Gallery -->
+<button id="prevBtn" class="arrow" aria-label="Previous">&#8249;</button>
+<button id="nextBtn" class="arrow" aria-label="Next">&#8250;</button>
+
+<section id="dock">
+  <div class="dock-row">
+    <div class="dock-text">
+      <p class="dock-count" id="dockCount"></p>
+      <h2 id="dockTitle"></h2>
+      <p class="dock-meta" id="dockMeta"></p>
+      <p class="dock-say" id="dockSay"></p>
+    </div>
+    <div class="dock-actions">
+      <button id="listenBtn" class="speak" title="Read this out loud">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10v4h4l5 5V5L7 10zm13.5 2A4.5 4.5 0 0 0 14 8v8a4.5 4.5 0 0 0 2.5-4zM14 3.2v2.1a7 7 0 0 1 0 13.4v2.1a9 9 0 0 0 0-17.6z"/></svg><span>Listen</span>
+      </button>
+      <button id="moreBtn" class="solid">More details</button>
+    </div>
+  </div>
+  <div id="thumbs"></div>
+</section>
+
+<aside id="card">
+  <button id="cardClose" aria-label="Close details">&times;</button>
+  <div class="card-scroll">
+    <p class="card-count" id="cardCount"></p>
+    <h2 id="cardTitle"></h2>
+    <p class="card-meta" id="cardMeta"></p>
+    <p class="card-text" id="cardText"></p>
+    <ul class="card-facts" id="cardFacts"></ul>
+  </div>
+  <div class="card-actions">
+    <button id="readBtn" class="speak">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10v4h4l5 5V5L7 10zm13.5 2A4.5 4.5 0 0 0 14 8v8a4.5 4.5 0 0 0 2.5-4zM14 3.2v2.1a7 7 0 0 1 0 13.4v2.1a9 9 0 0 0 0-17.6z"/></svg><span>Listen</span>
+    </button>
+    <button id="askBtn">Ask the guide</button>
+  </div>
+</aside>
+
+<!-- Guide mascot (opens the chat) -->
+<button id="mascot" title="Chat with Bagh Mama" aria-label="Chat with the guide">
+  <svg viewBox="0 0 120 132" aria-hidden="true">
+    <ellipse cx="60" cy="126" rx="34" ry="5" fill="rgba(0,0,0,.28)"/>
+    <path class="tail" d="M84 104c16 2 22-10 16-22" fill="none" stroke="#f08a24" stroke-width="8" stroke-linecap="round"/>
+    <path class="tail" d="M99 88l4-3M96 96l5-1" stroke="#3a2412" stroke-width="3" stroke-linecap="round"/>
+    <ellipse cx="60" cy="98" rx="27" ry="27" fill="#f39a2e"/>
+    <ellipse cx="60" cy="103" rx="15" ry="19" fill="#fff4de"/>
+    <path d="M36 92l8 2M35 102l8 0M84 92l-8 2M85 102l-8 0" stroke="#3a2412" stroke-width="3.2" stroke-linecap="round"/>
+    <ellipse cx="46" cy="122" rx="10" ry="6" fill="#f39a2e"/><ellipse cx="74" cy="122" rx="10" ry="6" fill="#f39a2e"/>
+    <path d="M37 96c-9 4-10 14-5 20" fill="none" stroke="#f39a2e" stroke-width="10" stroke-linecap="round"/>
+    <g class="wave"><path d="M82 92c10-6 16-16 15-27" fill="none" stroke="#f39a2e" stroke-width="10" stroke-linecap="round"/><circle cx="97" cy="62" r="8" fill="#fff4de"/><path d="M94 58v-3M98 57v-3M101 59l1-3" stroke="#3a2412" stroke-width="1.6" stroke-linecap="round"/></g>
+    <path d="M27 30 22 9l20 9z" fill="#f39a2e"/><path d="M93 30l5-21-20 9z" fill="#f39a2e"/>
+    <path d="M29 26 27 15l10 5z" fill="#ffb9a8"/><path d="M91 26l2-11-10 5z" fill="#ffb9a8"/>
+    <circle cx="60" cy="50" r="38" fill="#f6a235"/>
+    <path d="M60 14v13M49 16l3 10M71 16l-3 10M24 44l11 3M23 56l11-1M96 44l-11 3M97 56l-11-1" stroke="#3a2412" stroke-width="4" stroke-linecap="round"/>
+    <ellipse cx="43" cy="64" rx="17" ry="14" fill="#fff4de"/><ellipse cx="77" cy="64" rx="17" ry="14" fill="#fff4de"/><ellipse cx="60" cy="70" rx="14" ry="12" fill="#fff4de"/>
+    <g class="eyes"><ellipse cx="45" cy="48" rx="6" ry="7.5" fill="#22140a"/><ellipse cx="75" cy="48" rx="6" ry="7.5" fill="#22140a"/><circle cx="47" cy="45" r="2.2" fill="#fff"/><circle cx="77" cy="45" r="2.2" fill="#fff"/></g>
+    <path d="M54 59h12l-6 7z" fill="#e0607a"/>
+    <path d="M60 66v5M60 71c-4 5-10 5-13 1M60 71c4 5 10 5 13 1" fill="none" stroke="#3a2412" stroke-width="2.4" stroke-linecap="round"/>
+    <ellipse cx="33" cy="62" rx="5" ry="3" fill="#ffb9a8" opacity=".7"/><ellipse cx="87" cy="62" rx="5" ry="3" fill="#ffb9a8" opacity=".7"/>
+  </svg>
+</button>
+<div id="bubble"><p id="bubbleText"></p><button id="bubbleAsk">Ask me anything</button></div>
+
+<!-- Chat -->
+<section id="chat" aria-label="Chat with the guide">
+  <header><strong>Bagh Mama</strong><span id="aiBadge">offline guide</span><button id="chatClose" aria-label="Close">&times;</button></header>
+  <div id="chatLog"></div>
+  <div id="chatChips"></div>
+  <form id="chatForm"><input id="chatInput" autocomplete="off" placeholder="Ask about Bangladesh…"><button>Send</button></form>
+</section>
+
+<!-- Journey: the full screen show -->
+<section id="journey">
+  <div id="jLoad">
+    <div class="gate-flag" aria-hidden="true"><span></span></div>
+    <h2 id="jLoadEn">Loading your Bangladesh journey</h2>
+    <p class="bn" id="jLoadBn">আপনার বাংলাদেশ ভ্রমণ শুরু হচ্ছে</p>
+    <p class="ar" id="jLoadAr" dir="rtl" lang="ar">رحلتكم إلى بنغلاديش تبدأ الآن</p>
+    <div class="jbar"><i></i></div>
+  </div>
+  <div id="jCap">
+    <p class="jchip"><span id="jSec"></span><span id="jNum"></span></p>
+    <div class="jcols">
+      <div class="jcol en"><h3 id="jEn"></h3><p id="jEnS"></p></div>
+      <div class="jcol bn"><h3 id="jBn"></h3><p id="jBnS"></p></div>
+      <div class="jcol ar" dir="rtl" lang="ar"><h3 id="jAr"></h3><p id="jArS"></p></div>
+    </div>
+    <div class="jprog"><i id="jProg"></i></div>
+  </div>
+  <div id="jTitle">
+    <p class="jt-k" id="jtK"></p>
+    <h2 id="jtEn"></h2>
+    <p class="jt-bn bn" id="jtBn"></p>
+    <p class="jt-ar ar" id="jtAr" dir="rtl" lang="ar"></p>
+    <span class="jt-line"></span>
+  </div>
+  <div id="jTeam">
+    <p class="jt-k">Thank you</p>
+    <h2 id="tmEn">The team behind the fest</h2>
+    <p class="tm-sub"><span class="bn" id="tmBn"></span><span class="ar" id="tmAr" dir="rtl" lang="ar"></span></p>
+    <div id="tmGrid"></div>
+  </div>
+  <div id="jPause" aria-live="polite"><span class="ic"><i></i><i></i></span><b>Paused</b><small>Press Enter or double-click to continue</small></div>
+  <button id="jClose" aria-label="Close the journey"><span>&times;</span></button>
+</section>
+
+<!-- National anthem with moving lyrics -->
+<section id="anthemView">
+  <button id="avClose" aria-label="Close">&times;</button>
+  <header><div class="big-flag"></div><h2 id="avTitle">Amar Sonar Bangla</h2><p class="bn" id="avTitleBn">আমার সোনার বাংলা</p></header>
+  <div id="lyWrap"><div id="lyList"></div></div>
+  <footer>
+    <div class="avprog"><i id="avProg"></i></div>
+    <div class="avbtns"><button id="avPlay" class="play">Play the anthem</button></div>
+    <p class="small" id="avMsg"></p>
+    <p class="small" id="avCredit"></p>
+  </footer>
+</section>
+
+<!-- Modal (facts) -->
+<div id="modal"><div class="modal-box"><button id="modalClose" aria-label="Close">&times;</button><div id="modalBody"></div></div></div>
+
+<audio id="bgm" preload="none"></audio>
+<audio id="anthem" preload="none"></audio>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
